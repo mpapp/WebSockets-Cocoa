@@ -56,7 +56,7 @@
 #define HUNGRY_SIZE 5
 
 /* unused
-/*static inline BOOL WS_OP_IS_FINAL_FRAGMENT(UInt8 frame) {
+static inline BOOL WS_OP_IS_FINAL_FRAGMENT(UInt8 frame) {
 	return (frame & 0x80) ? YES : NO;
 }*/
 
