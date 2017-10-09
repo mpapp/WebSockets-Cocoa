@@ -61,7 +61,7 @@
 }
 
 
-- (BOOL) connect: (NSError**)outError {
+- (BOOL) connect: (NSError *__autoreleasing *)outError {
     __block BOOL result = NO;
 	dispatch_sync(_websocketQueue, ^{
         result = [self _connect: outError];
